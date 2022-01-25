@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="States">
+        <item>Maharashtra</item>
+        <item>Punjab</item>
+        <item>Kerla</item>
+    </string-array>
+
+    <string-array name="Courses">
+        <item>Android Studio</item>
+        <item>Full Stack</item>
+        <item>Database Management</item>
+    </string-array>
+</resources>
