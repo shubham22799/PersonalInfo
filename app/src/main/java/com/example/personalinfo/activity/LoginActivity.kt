@@ -1,12 +1,12 @@
-package com.example.personalinfo
+package com.example.personalinfo.activity
 
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.personalinfo.R
 import com.example.personalinfo.databinding.ActivityMainBinding
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
@@ -43,8 +43,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v?.id){
-            R.id.btnLogin->{submit()}
-            R.id.btnSignup->{startActivity(Intent(this, RegisterActivity::class.java))}
+            R.id.btnLogin ->{submit()}
+            R.id.btnSignup ->{startActivity(Intent(this, RegisterActivity::class.java))}
 
         }
     }
