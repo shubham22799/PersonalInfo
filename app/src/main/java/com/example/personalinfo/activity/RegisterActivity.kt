@@ -26,6 +26,7 @@ import com.example.personalinfo.R
 import com.example.personalinfo.utility.SingleShotLocationProvider
 import com.example.personalinfo.databinding.ActivityRegisterBinding
 import com.example.personalinfo.utility.ContractPersonalInfo
+import com.example.personalinfo.utility.SharedPreferencesManager
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.snackbar.Snackbar
 import com.karumi.dexter.Dexter
@@ -316,7 +317,26 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
             ContractPersonalInfo.submitSuccessful
         )
 
-        startActivity(Intent(this, LandingPage::class.java))
+        var userName = bind.etUserName.text.toString().trim()
+        var emailId = bind.etEmail.text.toString().trim()
+        var password = bind.etPassword.text.toString().trim()
+        var gender = getUserGender()
+        var course = bind.etCourse.text.toString().trim()
+        var age = bind.seekBar.progress.toString()
+        var dob = bind.etDOB.text.toString().trim()
+        var state = bind.spinnerState.selectedItem.toString()
+
+        SharedPreferencesManager.putUsername(userName)
+        SharedPreferencesManager.putEmailId(emailId)
+        SharedPreferencesManager.putPassword(password)
+        SharedPreferencesManager.putGender(gender)
+        SharedPreferencesManager.putCourse(course)
+        SharedPreferencesManager.putAge(age)
+        SharedPreferencesManager.putDOB(dob)
+        SharedPreferencesManager.putState(state)
+
+        Log.d(TAG, "saved in preferences")
+       finish()
 
     }
 

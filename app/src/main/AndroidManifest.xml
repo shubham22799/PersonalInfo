@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.personalinfo">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name=".global.App"
@@ -16,15 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalInfo">
         <activity
-            android:name=".activity.RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".activity.LandingPage"
+            android:name=".activity.SplashScreen"
+            android:theme="@style/SplashTheme"
             android:exported="true" >
-        </activity>
-        <activity
-            android:name=".activity.LoginActivity"
-            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,14 +26,28 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LandingPage"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+
+        </activity>
+
         <provider
-            android:authorities="com.example.personalinfo"
             android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.personalinfo"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_file"/>
+                android:resource="@xml/provider_file" />
         </provider>
     </application>
 

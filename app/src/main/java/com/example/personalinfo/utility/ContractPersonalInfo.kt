@@ -1,6 +1,7 @@
 package com.example.personalinfo.utility
 
 object ContractPersonalInfo {
+    val wrongEmailorPassword: String = ""
     val emptyUserName = ""
     val emptyEmailId = ""
     val incorrectEmailId = ""

@@ -18,4 +18,5 @@
     <string name="zero">0</string>
     <string name="gallery">Gallery</string>
     <string name="camera">CAMERA</string>
+    <string name="splashscreen">SplashScreen</string>
 </resources>

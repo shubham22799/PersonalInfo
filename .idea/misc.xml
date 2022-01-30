@@ -11,15 +11,17 @@
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/ic_default_profile_photo.xml" value="0.26614583333333336" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/ic_email.xml" value="0.26614583333333336" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/ic_location.xml" value="0.26614583333333336" />
+        <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/ic_location_black.xml" value="0.1" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/ic_password.xml" value="0.26614583333333336" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/my_spinner_dropdown_item.xml" value="0.14322916666666666" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/shape.xml" value="0.26614583333333336" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/shape_circle.xml" value="0.26614583333333336" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/shape_circle_orange.xml" value="0.18541666666666667" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/drawable/shape_rectangle.xml" value="0.26614583333333336" />
-        <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/activity_landing_page.xml" value="0.8" />
+        <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/activity_landing_page.xml" value="0.152" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/activity_splash_screen.xml" value="0.12158054711246201" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.25" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/sample.xml" value="0.25" />
         <entry key="..\:/Shubham/AndroidStudioProjects/Personal Info/app/src/main/res/layout/spinner_layout.xml" value="0.25" />

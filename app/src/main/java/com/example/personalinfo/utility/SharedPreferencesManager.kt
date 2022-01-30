@@ -47,6 +47,9 @@ object SharedPreferencesManager {
     fun getUserName(): String? {
         return sharedPreferences.getString(userName, defUserName)
     }
+    fun getEmailId(): String? {
+        return sharedPreferences.getString(emailId, defEmailId)
+    }
     fun getPassword(): String? {
         return sharedPreferences.getString(password, defPassword)
     }
